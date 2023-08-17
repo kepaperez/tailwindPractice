@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.max-15 {
+    max-width: 15ch;
+}
+
+.max-30 {
+    max-width: 30ch;
+}
+
+@keyframes slide {
+    from {
+        transform: translate(0);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+.slideContainer{
+    animation: 20s slide infinite linear;
+}
