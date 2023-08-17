@@ -64,14 +64,14 @@ function App() {
 
           <div className='flex flex-col justify-between w-full items-center  lg:flex-row sm:gap-10'>
 
-            <div class="w-full aspect-square  bg-slate-300 ">
-              <img class="w-full h-full object-cover" src={mainImage} />
+            <div className="w-full aspect-square  bg-slate-300 ">
+              <img className="w-full h-full object-cover" src={mainImage} />
             </div>
 
 
             <div className='h-full lg:pl-10  text-center'>
-              <div class="lg:w-80 sm:w-full mt-10 lg:mt-0  mb-10 bg-slate-300">
-                <img class="w-full h-full object-cover" src={secondImage} />
+              <div className="lg:w-80 sm:w-full mt-10 lg:mt-0  mb-10 bg-slate-300">
+                <img className="w-full h-full object-cover" src={secondImage} />
               </div>
               <span className='font-bold text-xl '>ISABELLE FOR BALENCIAGA</span>
               <button href="#" className='flex mt-10 p-2 w-full justify-center border-2 border-black
@@ -93,9 +93,9 @@ function App() {
         <h2 className="text-2xl lg:text-4xl font-semibold  text-black text-left mt-10 mb-10 ">/  SHOP THE COLLECTION</h2>
         <div className='flex max-w-screen-xl justify-center flex-wrap gap-10'>
           {
-            products.map((product) => {
+            products.map((product,index) => {
               return (
-                <Product product={product} />
+                <Product key={index} product={product} />
               )
 
             })
