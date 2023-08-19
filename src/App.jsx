@@ -13,6 +13,7 @@ import pantalon from './assets/productos/pantalon.jpg'
 import sudadera from './assets/productos/hoodie1.jpg'
 import camiseta from './assets/productos/camiseta.jpg'
 import Footer from './components/Footer'
+import Nav2 from './components/Nav2'
 function App() {
   const products = [
     {
@@ -52,7 +53,8 @@ function App() {
 
   return (
     <>
-      <Nav />
+      <Nav2 />
+      
       <BannerTop />
       <div className="flex justify-center bg-white  ">
         <div className=" flex   flex-col mt-10 mb-20 p-10">
