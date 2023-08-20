@@ -44,22 +44,22 @@ export default function Nav2() {
               } sm:flex sm:space-x-4 gap-10 `}
           >
             <li className='p-5 sm:p-0 '>
-              <a href="#" className="text-black">
+              <a href="#" className="text-black text-md hover:underline underline-offset-8">
                 Home
               </a>
             </li>
             <li className='p-5 sm:p-0'>
-              <a href="#" className="text-black">
+              <a href="#" className="text-black text-md hover:underline underline-offset-8">
                 About
               </a>
             </li>
             <li className='p-5 sm:p-0'>
-              <a href="#" className="text-black">
+              <a href="#" className="text-black text-md hover:underline underline-offset-8">
                 Services
               </a>
             </li>
             <li className='p-5 sm:p-0'>
-              <a href="#" className="text-black">
+              <a href="#" className="text-black text-md hover:underline underline-offset-8">
                 Contact
               </a>
             </li>
