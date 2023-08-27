@@ -5,6 +5,9 @@
 .max-15 {
     max-width: 15ch;
 }
+html {
+    scroll-behavior: smooth;
+  }
 
 .max-30 {
     max-width: 30ch;
