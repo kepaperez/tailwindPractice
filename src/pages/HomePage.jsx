@@ -16,39 +16,44 @@ import Footer from './../components/Footer'
 function HomePage() {
   const products = [
     {
+      id: 1,
       name: "Balenciaga Hoodie 2032",
       price: "1400",
       image: sudadera,
     },
     {
+      id: 2,
       name: "Balenciaga Hoodie",
       price: "1400",
       image: bolso,
-    }
-    ,
+    },
     {
-      name: "Balenciaga Basic T-shirt ",
+      id: 3,
+      name: "Balenciaga Basic T-shirt",
       price: "600",
       image: camiseta,
-    }
-    ,
+    },
     {
+      id: 4,
       name: "Pantalón Vaquero Con Bolsillos",
       price: "6,400",
       image: pantalon,
-    }, {
+    },
+    {
+      id: 5,
       name: "Balenciaga Hoodie 2032",
       price: "1400",
       image: sudadera,
     },
     {
+      id: 6,
       name: "Balenciaga Hoodie",
       price: "1400",
       image: bolso,
-    }
-    ,
-
-  ]
+    },
+  
+  ];
+  
 
   return (
     <>
@@ -73,9 +78,9 @@ function HomePage() {
                 <img className="w-full h-full object-cover" src={secondImage} />
               </div>
               <span className='font-bold text-xl '>ISABELLE FOR BALENCIAGA</span>
-              <button href="#" className='flex mt-10 p-2 w-full justify-center border-2 border-black
+              <button href="#" className='flex mt-10 py-3 w-full justify-center border-2 border-black
               hover:bg-black hover:text-white text-md
-              ease-in-out duration-300'>SHOP THE COLLECTION</button>
+              ease-in-out duration-300  font-semibold  '>SHOP THE COLLECTION</button>
               <p className='mt-10 lg:w-80 sm:w-full text-left'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque eaque debitis accusantium. Consectetur dolore magnam esse?<span className='font-semibold px-2  mx-1 bg-green'>
                 Isabelle Marcus</span> Eveniet libero sit cum amet fuga veniam iusto sed eos non officiis.</p>
             </div>
